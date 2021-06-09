@@ -29,7 +29,6 @@ h2 {
     font-size: 5em;
     text-align: center;
     text-transform: uppercase;
-    line-height: 4em;
 }
 
 h3 {
@@ -74,6 +73,12 @@ ul {
     background-size:cover;
 }
 
+.header h2 {
+    margin: 0;
+    padding: 0;
+    height: 30%;
+}
+
 h2 {
     text-shadow: #020819 8px -20px 9px;
     color: white;
@@ -89,27 +94,11 @@ h2 {
     
 }
 
-/* .text {
-    font-size: 2em;
-    font-weight: 100;
-    text-align: center;
-} */
-
 #general-information article p {
     font-size: 2em;
     font-weight: 100;
     text-align: center;
 }
-/* 
-.link-btn {
-    background-color: rgb(67, 163, 230);
-    color: white;
-    font-family: Roboto Condensed;
-    font-size: 2em;
-    letter-spacing: 0.5px;
-    text-align: center;
-    text-decoration: none;
-} */
 
 #general-information article a {
     background-color: rgb(67, 163, 230);
@@ -118,5 +107,41 @@ h2 {
     font-size: 2em;
     letter-spacing: 0.5px;
     text-align: center;
+    text-decoration: none;
+}
+
+#structure div article {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#team .section-text {
+    font-size: 1.9em;
+    text-align: center;
+
+}
+
+#team div article h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#team img {
+    width: 250px;
+    height: 180px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.address {
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+footer ul li a {
+    color: rgb(67, 163, 230);
     text-decoration: none;
 }
